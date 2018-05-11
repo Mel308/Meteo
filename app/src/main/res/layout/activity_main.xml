@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/image_fond"
     tools:context="com.example.piotm.meteo.MainActivity">
-
     <Button
         android:id="@+id/button"
         android:layout_width="48dp"

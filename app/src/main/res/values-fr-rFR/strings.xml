@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="Langue_FR">Français</string>
+    <string name="Langue_EN">Anglais</string>
+    <string name="Download">Télécharger</string>
+</resources>
