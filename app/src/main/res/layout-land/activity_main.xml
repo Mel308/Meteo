@@ -22,7 +22,8 @@
         android:text="+"
         android:layout_gravity="bottom"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="200dp"
-     />
+        android:layout_marginLeft="400dp"
+        android:background="@drawable/shape"
+    />
 
 </LinearLayout>
