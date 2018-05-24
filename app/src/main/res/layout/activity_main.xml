@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
     android:background="@drawable/image_fond"
-    tools:context="com.example.piotm.meteo.MainActivity">
+    tools:context=".MainActivity">
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_plus"
         android:layout_width="48dp"
         android:layout_height="wrap_content"
-        android:text="@string/Add_button"
         android:layout_gravity="bottom"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="300dp"
         android:background="@drawable/shape"
-     />
+        android:baselineAligned="false"
+        android:text="@string/Add_button"
+        android:onClick="LaunchActivity2"/>
 
 </LinearLayout>

@@ -1,23 +1,17 @@
 package com.example.piotm.meteo;
 
-import android.app.AlertDialog;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.content.res.Configuration;
 import android.widget.Toast;
-import android.content.res.Resources;
-import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second);
     }
 
     /*Ajout de l'ActionBar à l'activity*/
@@ -49,10 +43,5 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void LaunchActivity2(View target){
-        Intent page_2 = new Intent(this, SecondActivity.class);
-        startActivity(page_2);
     }
 }
