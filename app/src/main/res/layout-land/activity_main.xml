@@ -15,6 +15,7 @@
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="500dp"
         android:background="@drawable/shape"
-        android:text="@string/Add_button" />
+        android:text="@string/Add_button"
+        />
 
 </LinearLayout>

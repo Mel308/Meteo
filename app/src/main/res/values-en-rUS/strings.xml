@@ -3,4 +3,5 @@
     <string name="Langue_FR">French</string>
     <string name="Langue_EN">English</string>
     <string name="Download">Download</string>
+    <string name="app_name">Weather</string>
 </resources>

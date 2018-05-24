@@ -3,18 +3,18 @@
 
     <item
         android:id="@+id/action_save"
-        android:icon="@drawable/download"
+        android:icon="@drawable/telecharger"
         android:title="@string/Download"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_fr"
-        android:icon="@android:drawable/ic_menu_delete"
+        android:layout_height="wrap_content"
         android:title="@string/Langue_FR"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_en"
         android:title="@string/Langue_EN"
         app:showAsAction="never" />
 

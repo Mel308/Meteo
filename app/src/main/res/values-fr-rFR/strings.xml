@@ -3,4 +3,5 @@
     <string name="Langue_FR">Français</string>
     <string name="Langue_EN">Anglais</string>
     <string name="Download">Télécharger</string>
+    <string name="app_name">Meteo</string>
 </resources>
